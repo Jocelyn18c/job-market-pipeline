@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(215deg, #d5dbe0 16.5%, #f8f8f8 75%);
+}
+
+
+.dashboard {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.dashboard h1 {
+  margin: 0 0 6px;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin: 15px 0 1.5rem;
+  text-align: center;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 2rem;
+}
+
+.stat-card{
+  border: 0.5px solid #666;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+
+.stat-label {
+  font-size: 13px;
+  color: #000000;
+  margin: 0 0 4px;
+}
+
+.stat-value{
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.job-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.job-company {
+  font-size: 13px;
+  color: #999;
+  margin: 2px 0 0;
+}
+
+.job-card {
+  background: #ffffff;
+  border: 0.5px solid #666;
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-title{
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.skills{
+  display: flex;
+  gap: 6px;
+}
+
+.skill-pill {
+  background: #fafafa;
+  color: #333;
+  border: none;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 100px;
+}
