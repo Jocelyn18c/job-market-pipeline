@@ -2,7 +2,7 @@
 
 A full-stack data pipeline that extracts in-demand skills from job postings, stores them in a relational database, and visualizes the results in a live React dashboard.
 
-![Job market pipeline dashboard](./<img width="868" height="627" alt="job-market-pipeline" src="https://github.com/user-attachments/assets/1656244c-d5b7-4cc1-abf5-2780e059a58f" />
+(./<img width="868" height="627" alt="job-market-pipeline" src="https://github.com/user-attachments/assets/1656244c-d5b7-4cc1-abf5-2780e059a58f" />
 )
 
 ## Overview
